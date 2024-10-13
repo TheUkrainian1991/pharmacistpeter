@@ -484,7 +484,7 @@
 	// Portfolio Masonry.
 	if ( $.isFunction( $.fn.masonry ) ) { 
 		// Masonry blocks for portfolio.
-		$blocksPortfolio = $('.grid');
+		$blocksPortfolio = $('.grid:not(.sptp-row)');
 		$blocksPortfolio.imagesLoaded(function(){
 			$blocksPortfolio.masonry({
 				itemSelector: '.grid-item',

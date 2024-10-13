@@ -19,7 +19,7 @@ blockquote.alignright:before, blockquote.alignleft:before {display: none;}
 .wp-block-pullquote.alignright blockquote, .wp-block-pullquote.alignleft blockquote {margin-top: 0;}
 .wp-block-pullquote.alignwide, .wp-block-pullquote.alignfull {margin: 0;}
 blockquote p {margin-bottom: 21px;}
-blockquote cite, blockquote small {display: block;font-size: 13px;font-size: .8125rem;font-weight: 400;line-height: 1.6153846153846;text-decoration: none;}
+blockquote cite, blockquote small {display: block;font-size: 16px;font-size: 1rem;font-weight: 600;line-height: 1.6153846153846;text-decoration: none;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
 blockquote strong, blockquote b {font-weight: 400;}
 blockquote > :last-child {margin-bottom: 0;}
