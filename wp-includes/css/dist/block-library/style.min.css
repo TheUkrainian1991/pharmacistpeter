@@ -7,7 +7,7 @@
 .wp-block-audio {box-sizing: border-box;}
 .wp-block-audio :where(figcaption) {margin-bottom: 1em;margin-top: .5em;}
 .wp-block-audio audio {min-width: 300px;width: 100%;}
-.wp-block-button__link {align-content: center;box-sizing: border-box;cursor: pointer;display: inline-block;height: 100%;text-align: center;width: 100%;word-break: break-word;}
+.wp-block-button__link {align-content: center;box-sizing: border-box;cursor: pointer;display: inline-block;height: 100%;text-align: center;word-break: break-word;}
 .wp-block-button__link.aligncenter {text-align: center;}
 .wp-block-button__link.alignright {text-align: right;}
 :where(.wp-block-button__link) {border-radius: 9999px;box-shadow: none;padding: calc(.667em + 2px) calc(1.333em + 2px);text-decoration: none;}
@@ -42,6 +42,7 @@
 .wp-block-buttons:not(.is-content-justification-space-between, .is-content-justification-right, .is-content-justification-left, .is-content-justification-center) .wp-block-button.aligncenter {margin-left: auto;margin-right: auto;width: 100%;}
 .wp-block-buttons[style*=text-decoration] .wp-block-button, .wp-block-buttons[style*=text-decoration] .wp-block-button__link {text-decoration: inherit;}
 .wp-block-buttons.has-custom-font-size .wp-block-button__link {font-size: inherit;}
+.wp-block-buttons .wp-block-button__link {width: 100%;}
 .wp-block-button.aligncenter, .wp-block-calendar {text-align: center;}
 .wp-block-calendar td, .wp-block-calendar th {border: 1px solid;padding: .25em;}
 .wp-block-calendar th {font-weight: 400;}
@@ -530,7 +531,6 @@ p.has-text-align-left[style*="writing-mode:vertical-lr"], p.has-text-align-right
 .wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent {margin-top: .35em;}
 .wp-block-post-comments-form .comment-reply-title {margin-bottom: 0;}
 .wp-block-post-comments-form .comment-reply-title :where(small) {font-size: var(--wp--preset--font-size--medium,smaller);margin-left: .5em;}
-.wp-block-post-comments-form input[type=submit] {width: auto;}
 .wp-block-post-comments-count {box-sizing: border-box;}
 .wp-block-post-content {display: flow-root;}
 .wp-block-post-comments-link, .wp-block-post-date {box-sizing: border-box;}
